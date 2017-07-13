@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Git Process Page</h1>
+    <a href="index.html">Index </a>
+</body>
+    <p>
+    <strong>Get project into your local machine.</strong>
+</p>
+<p>
+    How to do it?
+</p>
+<p>
+    #Git clone URLOfTheProject.
+</p>
+<p>
+    1. Make changes/work on the project
+</p>
+<p>
+    #cd into project folder
+</p>
+<p>
+    #cd PROJECTFOLDER
+</p>
+<p>
+    You will notice that, the project is defaulted to the default branch
+</p>
+<p>
+    This default branch could be 'Master' or any other branch that the author
+    has set up as 'Default' in github.
+</p>
+<p>
+    Somthething like below:
+</p>
+<p>
+    projectfolder (Master)&gt;
+</p>
+<p>
+    or
+</p>
+<p>
+    projectfolder (develop)&gt;
+</p>
+<p>
+    NOTE: Never work on the default branch
+</p>
+<p>
+    projectfolder (develop)&gt; git checkout -b YOURBRANCHNAME
+</p>
+<p>
+    projectfolder (YOURBRANCHNAME) &gt;
+</p>
+<p>
+    open project in your IDE and make changes
+</p>
+<p>
+    projectfolder (YOURBRANCHNAME) &gt; git status
+</p>
+<p>
+    check all your changes
+</p>
+<p>
+    shown in red
+</p>
+<p>
+    projectfolder (YOURBRANCHNAME) &gt; git add .
+</p>
+<p>
+    . refers to all
+</p>
+<p>
+    git add specificFileName
+</p>
+<p>
+    The added files are 'Staged'
+</p>
+<p>
+    'Staged' means ready to be committed
+</p>
+<p>
+    projectfolder (YOURBRANCHNAME) &gt; git commit -m "Your description of
+    change"
+</p>
+<p>
+    projectfolder (YOURBRANCHNAME) &gt; git push -u origin YOURBRANCHNAME
+</p>
+<p>
+    1. Create PUll Request
+</p>
+<p>
+    When we push branch you will give option to create a PULL Request
+</p>
+<p>
+You need go to    <a href="http://gitbub.com/To/your/project">Gitbub.com/To/your/project</a>
+</p>
+<p>
+    You will notice a notification pop up asking to create a PR from your
+    pushed branch
+</p>
+<p>
+    Click that and select the branch you want your branch to be merged into.
+</p>
+<p>
+    When you a pull request, collaborators will be notified of the PR and they
+    need to check the changes and approve/comment/discard the PR.
+</p>
+<p>
+    1. How to check a pull request
+</p>
+<p>
+    You just checkout to default branch
+</p>
+<p>
+    projectfolder (MyLocalBranch) &gt; git pull
+</p>
+<p>
+    checkout the PR requested Branch (This is available on github on the PR
+    screen)
+</p>
+<p>
+    projectfolder (MyLocalBranch) &gt; git checkout PRRequestedBranch
+</p>
+<p>
+    #check all the changes
+</p>
+<p>
+#You can approve/disapprove of the changes on    <a href="http://github.com/PR">github.com/PR</a>
+</p>
+</html>
