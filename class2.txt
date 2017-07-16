@@ -1,0 +1,15 @@
+Steps for pulling the request 
+- (cmd) git checkout develop(branch name)
+- (cmd) git pull
+- (cmd) git checkout <branch name from where it is being requested>
+- check the code/data 
+- If all good merge it from the github.
+
+Steps for pushing the request
+- git clone <link from guthub>
+- cd 
+- git checkout-b <branch name created by the user>
+make changes
+- (cmd) git add <. or the particular file name>
+- (cmd) git commit -m "description"
+- (cmd) git push -u origin develop
